@@ -1,0 +1,82 @@
+@mixin fixed{
+	position:fixed;
+	width:100%;
+	left:0;
+	z-index:10;
+}
+$themebgcolor :#0eb852;
+$themecolor:#fff;
+header{
+	@include fixed;
+	top:0;
+	background:$themebgcolor;
+	height:1rem;
+	line-height:1rem;
+	text-align:center;
+	font-size:0.36rem;
+	color:$themecolor;
+}
+a{
+	display:inline-block;
+	text-decoration:none;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+	padding:1rem 0 1.1rem;
+	max-width:750px;
+	margin:0 auto;
+}
+header{
+	i{
+		display:inline-block;
+    	font-size: 0.4rem!important;
+	}
+	a{
+		color:$themecolor;
+	}
+	.header-left{
+		position:absolute;
+		left:0.18rem;
+	}
+	.header-right{
+		position:absolute;
+		right:0.18rem;
+	}
+	.header-center i{
+		margin:-2px 0.1rem 0 0;
+	}
+}
+$graycolor:#bbbbbb;
+footer{
+	@include fixed;
+	bottom:0;
+	background:$themecolor;
+	font-size:0.2rem;
+	border-top:1px solid $graycolor;
+	border-bottom:1px solid $graycolor;
+	li{
+		width:15%;
+		display:inline-block;
+		padding:0.05rem 0;
+		text-align:center;
+		i{
+			display:inline-block;
+			width:0.6rem;
+			height:0.6rem;
+			border-radius:50%;
+			line-height:0.6rem;
+			font-size:0.4rem!important;
+			background:$graycolor;
+			color:$themecolor;
+		}
+		p{
+			margin-top:0.1rem;
+			color:#422828;
+		}
+		.cur{
+			background:$themebgcolor;
+		}
+	}
+}

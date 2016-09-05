@@ -1,0 +1,53 @@
+.sh-container {
+  background: #efeeee;
+  padding: 0.15rem 0; }
+
+.sh-form {
+  width: 95%;
+  position: relative;
+  font-size: 0;
+  margin: 0 auto 0.45rem; }
+  .sh-form input {
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    border-radius: 0.03rem;
+    height: 0.55rem;
+    font-size: 0.28rem;
+    color: #333;
+    padding-left: 0.45rem; }
+  .sh-form i {
+    position: absolute;
+    left: 5px;
+    line-height: 0.55rem;
+    font-size: 0.35rem;
+    color: #333; }
+
+.sh-content li {
+  margin-bottom: 0.35rem;
+  position: relative;
+  color: #fff;
+  font-size: 0; }
+  .sh-content li img {
+    width: 100%; }
+  .sh-content li div {
+    font-size: 0.28rem;
+    width: 40%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 30%;
+    top: 40%;
+    text-align: center;
+    padding: 0.15rem 0; }
+    .sh-content li div p {
+      font-size: 0.32rem; }
+  .sh-content li span {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    right: 0;
+    font-size: 0.3rem;
+    padding: 0.03rem 0.3rem; }
+    .sh-content li span i {
+      color: #f00;
+      font-size: 0.25rem;
+      margin-right: 0.25rem; }
